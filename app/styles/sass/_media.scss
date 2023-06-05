@@ -1,0 +1,172 @@
+@media only screen and (max-width: 1140px) {
+	.header__btn {
+		height: 70px;
+		bottom: 40px;
+	}
+	.header__h1 {
+		font-size: 70px;
+	}
+	.header__btn-text {
+		font-size: 30px;
+		padding: 0 60px;
+	}
+	.lease__options {
+		grid-template-columns: 1fr 1fr;
+		margin-top: 60px;
+	}
+	.lease__title {
+		margin-top: 60px;
+	}
+	.lease-work__title {
+		margin-top: 100px;
+	}
+	.important__cards {
+		justify-content: center;
+	}
+	.important__card {
+		margin: 10px 10px 0;
+	}
+}
+
+@media only screen and (max-width: 960px) {
+	.header__menu-overlay {
+		background: #000;
+		height: 100%;
+		left: 0;
+		opacity: .9;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 1002;
+		display: none;
+	}
+	.header__nav-items {
+		display: none;
+		position: absolute;
+		left: 0;
+		top: -40px;
+		width: 100%;
+		z-index: 1004;
+	}
+	.header__nav-item {
+		margin-left: 0;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		z-index: 2000;
+		text-align: center;
+		height: 60px;
+		&:first-child {
+			margin-top: 150px;
+		}
+	}
+	.header__nav {
+		margin-top: 15px;
+	}
+	.header__menu {
+		display: block;
+		position: relative;
+		right: 15px;
+		z-index: 4000;
+	}
+	.articles__items {
+		grid-template-columns: 1fr;
+		margin-top: 80px;
+	}
+	.articles__item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.articles__more {
+		margin-left: 15px;
+	}
+	.articles__show-more {
+		margin-bottom: 100px;
+	}
+	.choose-car__items {
+		grid-template-columns: repeat(2, 1fr);
+		justify-items: center;
+	}
+	.choose-car__car-nav {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.choose-car__car-nav-item {
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-top: 20px;
+	}
+}
+
+@media only screen and (max-width: 720px) {
+	.lease__options {
+		grid-template-columns: 1fr;
+	}
+	.header__h1 {
+		font-size: 50px;
+		line-height: 60px;
+	}
+	.header__btn {
+		bottom: 70px;
+	}
+	.footer__nav {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		justify-items: center;
+	}
+	.footer__nav-items {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		margin-top: 20px;
+	}
+	.footer__nav-title {
+		margin-top: 25px;
+		text-align: center;
+	}
+	.footer__nav-section {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.choose-car__items {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
+@media only screen and (max-width: 540px) {
+	.header__h1 {
+		font-size: 40px;
+		line-height: 60px;
+		margin: 100px 0 100px;
+	}
+	.welcome__video-wrap {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.lease-work__item-desc {
+		margin-left: 20px;
+	}
+	.lease-work__item-img {
+		height: 50px;
+		width: 50px;
+	}
+	.lease-work__item-unit {
+		font-size: 30px;
+	}
+	.contact-us__fields {
+		flex-direction: column;
+	}
+	.contact-us__name, .contact-us__email {
+		margin-left: 0;
+		margin-right: 0;
+		width: 100%;
+		max-width: 100%;
+	}
+	.choose-car__car-nav {
+		flex-direction: column;
+		align-items: center;
+	}
+}
