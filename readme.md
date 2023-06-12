@@ -16,3 +16,7 @@ npm run start
 	<li><strong>deploy</strong>: project deployment via <strong>RSYNC</strong></li>
 	<li><strong>build</strong>: project build</li>
 </ul>
+
+### Figma
+
+Figma layout can be found [here](https://www.figma.com/file/EVDdvXgr6QBFj9tNuDIhFr/lease-cars-(1)?type=design&node-id=0-1)
